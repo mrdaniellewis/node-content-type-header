@@ -48,7 +48,7 @@ Format the contentType into a string.
 ```js
 const contentType = new ContentType();
 contentType.type = 'image';
-contentType.subtype = 'gif;
+contentType.subtype = 'gif';
 
 contentType.format(); => 'image/gif'
 ```

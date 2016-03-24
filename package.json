@@ -1,0 +1,18 @@
+{
+  "name": "content-type-header",
+  "version": "1.0.0",
+  "description": "HTTP content-type header parser and formatter",
+  "main": "index.js",
+  "scripts": {
+    "test": "istanbul cover _mocha"
+  },
+  "author": "Daniel Lewis <node@mrdaniellewis.co.uk>",
+  "license": "ISC",
+  "devDependencies": {
+    "coding-standards": "https://github.com/mrdaniellewis/coding-standards.git#v1.0.4",
+    "expect": "^1.15.2",
+    "istanbul": "^0.4.2",
+    "mocha": "^2.4.5"
+  },
+  "engines" : { "node" : ">=4" }
+}

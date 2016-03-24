@@ -50,7 +50,7 @@ const contentType = new ContentType();
 contentType.type = 'image';
 contentType.subtype = 'gif';
 
-contentType.format(); => 'image/gif'
+contentType.format(); // => 'image/gif'
 ```
 
 ### Static: `ContentType.parse( string )`

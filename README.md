@@ -33,7 +33,7 @@ The object has the following properties:
 * **`charset`** The charset, eg `utf-8`
 * **`parameters`** Any parameters, including the charset, eg `{ charset: 'utf-8', foo: 'bar fee' }`
 
-Any updates to `mediaType` will be reflected in type and subtype.  Any updates to charset will also be reflected in parameters.
+Any updates to `mediaType` will also update and type and subtype.  Any updates to charset will also update parameters.
 
 If the format does not match the RFC7231 specification an error will be thrown.  This is deliberate.  Incorrect media type identification can lead to privilege in certain contexts; therefore, it is better to disregard badly formatted content-type headers.
 
